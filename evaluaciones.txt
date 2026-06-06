@@ -1,0 +1,48 @@
+MICROCONTROLADORES
+NO PARCIALES
+Prácticas y actviidades = 80%
+Proyecto final - 10%
+Si toma asistencias - 10%
+
+PRÁCTICAS
+	Todo en protoboard
+	Reporte de todas las prácticas en la semana se entregan el domingo.
+		El reporte es de formato líbre.
+		La práctica tiene más peso sobre la información.
+	revisión de simulación (en proteus) y de la práctica fisica (se debe enseñar en clase y se palomea cual práctica ya revisó en BB en bitacora, la práctica debe estar palomeada para que revise el reporte)
+		Debe de haber simulación para que te revise la práctica.
+	Proyecto final es libre - tu eliges que hacer "No pido mucho"
+		Para la semana 3 ir definiendo con el profe que vamos a hacer
+		
+	
+PTS extra - actividades opcionales
+	Hacer un repositorio en Github con todas las prácticas, esquemáticas, etc.
+	Durante la exposicion del proyecto final explicar donde esta el repositorio
+	tmb es en equipos.
+	
+LA MATERIA SE DEBERIA LLAMAR MICROCONTROLADORES
+La materia se toma en el lab de electrónica.
+
+MICROCONTROLADOR
+	LOS RD0 son lecturas analogicas
+	RD0 para salidas
+	RA y RE son los puertos que no se usan ya que son pines de configuración 
+	Las entradas que vamos a usar son:
+		RB (entradas) 
+		RC (salidas) y 
+		RD (salidas o entradas)
+		
+Fusibles o palabras que configuración 
+	se distingue con #pragma config siempre esta en el encabezado de nuestro programa
+		con las palabras de configuración podemos definir el tipo de oscilador, evitar que se cicle el pic con un WATCHDOG 
+		
+		
+GITHUB
+1 Repositorio para todas las prácticas
+	cada practica
+		read me
+		esquematico
+		si cambia entre el reto y la actividad tambien poner eso
+		código
+		foto del circuito
+		

@@ -15,7 +15,7 @@ Prácticas y Proyectos de la clase Microcontroladores
 
 ---
 ##  Herramientas Utilizadas
-- **[MPLAB X IDE]** — Para desarrollar el código del microcontrolador
+- **MPLAB X IDE** — Para desarrollar el código del microcontrolador
 - **XC8 Compiler** — Compilador de C para PICs de 8 bits
 - **PIC16F887** — Microcontrolador de 8 bits
 - **Proteus** — Para esquemáticos

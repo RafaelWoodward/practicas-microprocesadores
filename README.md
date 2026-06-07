@@ -9,9 +9,9 @@ Prácticas y Proyectos de la clase Microcontroladores
 ## Índice de Prácticas
 | # | Práctica | Descripción | Actividades |
 |---|---|---|---|
-| 01 | [Práctica 01](./Practica_1/) | _Configuración de leds_ | [Blink](./Practica_1/Blink.c) <br> [Caminata](Caminata.c) <br> [Contador de 6 bits](Contador_6_bits.c) |
-| 02 | [Práctica 02](./Practica_2/) | _Cofiguración de matriz 8x8_ | [Configuración X](X.c) <br> [Configuración de letras](REAL.c) |
-| 03 | [Práctica 03](./Practica_3/) | _Display de 7seg_ | [Contador de 0 a 9](Contador_0-9.c) <br> [Contador Hex](Contador_0-F.c) |
+| 01 | [Práctica 1](./Practica%201/) | _Configuración de leds_ | [Blink](./Practica%201/Blink.c) <br> [Caminata](./Practica%201/Caminata.c) <br> [Contador de 6 bits](./Practica%201/Contador_6_bits.c) |
+| 02 | [Práctica 2](./Practica%202/) | _Cofiguración de matriz 8x8_ | [Configuración X](./Practica%202/X.c) <br> [Configuración de letras](./Practica%202/REAL.c) |
+| 03 | [Práctica 3](./Practica%203/) | _Display de 7seg_ | [Contador de 0 a 9](./Practica%203/Contador_0-9.c) <br> [Contador Hex](./Practica%203/Contador_0-F.c) |
 
 ---
 ##  Herramientas Utilizadas

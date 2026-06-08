@@ -8,19 +8,14 @@ Implementación de contador decimal y hexadecimal mediante el manejo de salidas 
 
 ---
 ## Actividades
-### Clase - Blink (Parpadeo de 4 LEDs)
-Programa de parpadeo de 4 LEDs conectados al puerto del PIC16F887, introducción al manejo de salidas digitales y configuración de registros TRIS y PORT.
-<br> **Codigo:** <br> [Blink.c](./Blink.c)
+### Clase - Contador Decimal (0 a 9)
+Programa que implementa un contador incremental en base 10 (decimal) empleando un display de 7 segmentos conectados a los pines del PIC16F887. Se configuran los puertos como salidas digitales (TRIS) y se envía la secuencia de estados lógicos (PORTB) del 0 al 9 de forma cíclica con retardos de tiempo.
+<br> **Codigo:** <br> [Blink.c](./Contador_0-9.c)
 
 ---
-### Actividad 1 - Contador Binario de 6 bits
-Contador binario de 6 bits desplegado en LEDs, incrementando de 0 a 63 de forma secuencial usando los puertos D del PIC16F887.
-<br> **Codigo:** <br> [Contador_6_bits.c](./Contador_6_bits.c)
-
----
-### Actividad 2 - Caminata de 8 bits
-Secuencia tipo caminata sobre 8 LEDs conectados al puerto B del PIC16F887, desplazando un bit encendido de izquierda a derecha y de regreso de forma continua.
-<br> **Codigo:** <br> [Caminata.c](./Caminata.c)
+### Actividad 1 - Contador Hexadecimal (0 a F)
+Programa diseñado para realizar un conteo secuencial en base 16 (hexadecimal) desde el 0 hasta la F ($15$ en decimal). Se utiliza un display de 7 segmentosconectada a los pines del PIC16F887, manipulando los registros de salida para mostrar los caracteres alfanuméricos correspondientes (0-9 y A-F) mediante el mapeo de bits correspondientes.
+<br> **Codigo:** <br> [Contador_6_bits.c](./Contador_0-F.c)
 
 ---
 ## Observaciones

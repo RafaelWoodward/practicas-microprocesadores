@@ -14,7 +14,7 @@ Programa que implementa un contador incremental en base 10 (decimal) empleando u
 
 ---
 ### Actividad 1 - Contador Hexadecimal (0 a F)
-Programa diseñado para realizar un conteo secuencial en base 16 (hexadecimal) desde el 0 hasta la F ($15$ en decimal). Se utiliza un display de 7 segmentosconectada a los pines del PIC16F887, manipulando los registros de salida para mostrar los caracteres alfanuméricos correspondientes (0-9 y A-F) mediante el mapeo de bits correspondientes.
+Programa diseñado para realizar un conteo secuencial en base 16 (hexadecimal) desde el 0 hasta la F ($15$ en decimal). Se utiliza un display de 7 segmentos conectado a los pines del PIC16F887, manipulando los registros de salida para mostrar los caracteres alfanuméricos correspondientes (0-9 y A-F) mediante el mapeo de bits correspondientes.
 <br> **Codigo:** <br> [Contador Hexadecimal.c](./Contador_0-F.c)
 
 ---

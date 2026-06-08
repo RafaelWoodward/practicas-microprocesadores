@@ -1,6 +1,6 @@
 # Practica 1 - Manejo de Salidas Digitales
 Manejo de salidas digitales mediante el microcontrolador PIC16F887, implementando secuencias de parpadeo, conteo binario y caminata en LEDs.
-**Esquematico:**
+<br>**Esquematico:** <br>
 ![Esquematico Practica 1](./Practica1_esquematico.png)
 
 ---
@@ -29,3 +29,4 @@ Secuencia tipo caminata sobre 8 LEDs conectados al puerto B del PIC16F887, despl
 ## Observaciones
 - Los registros TRIS deben configurarse en 0x00 para definir el puerto como salida antes de cualquier operacion.
 - Se utilizo la funcion __delay_ms() para controlar los tiempos de cada secuencia.
+- 0x00 = 0x00000000 = 0

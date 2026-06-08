@@ -20,5 +20,10 @@ Programa diseñado para realizar un conteo secuencial en base 16 (hexadecimal) d
 ---
 ## Observaciones
 - Los registros TRIS deben configurarse en 0x00 para definir el puerto como salida antes de cualquier operacion.
+- Se implemento un arreglo de tipo const unsigned char de 16 elementos para almacenar los codigos hexadecimales equivalentes a los caracteres del 0 al F.
+- Se implemento una condición de reinicio que actúa como límite para el indice al superar el valor númerico de la F.
 - Se utilizo la funcion __delay_ms() para controlar los tiempos de cada secuencia.
 - 0x00 = 0x00000000 = 0
+
+
+

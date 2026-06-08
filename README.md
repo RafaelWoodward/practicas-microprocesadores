@@ -4,6 +4,8 @@ Prácticas y Proyectos de la clase Microcontroladores
 - EQUIPO: ⚡ZEUS⚡
   - Rafael Woodward Jiménez - 621496
   - Emilio Alberto González Meléndez - 612432
+<br>
+[portada](./zeus.jpeg)
 
 ---
 ## Índice de Prácticas

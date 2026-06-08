@@ -25,6 +25,7 @@ Programa diseñado para realizar un conteo secuencial en base 16 (hexadecimal) d
 - Se implemento una condición de reinicio que actúa como límite para el indice al superar el valor númerico de la F.
 - Se utilizo la funcion __delay_ms() para controlar los tiempos de cada secuencia.
 - 0x00 = 0x00000000 = 0
+- Se toma la entrada a del display de 7 segmentos como el bit menos significativo (LSB)
 
 
 

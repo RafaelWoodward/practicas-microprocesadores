@@ -1,9 +1,9 @@
 # Practica 2 - Configuración de Mátriz LED 8x8
 Manejo de salidas digitales mediante el microcontrolador PIC16F887, implementando una matriz LED de 8x8 para formar figuras y letras.
 <br> **Esquematico:** <br>
-![Esquematico](./Practica2_esquematico.jpg)
+![Esquematico](./Practica2_esquematico.png)
 <br> **Circuito:** <br>
-![Circuito](./foto_blink.jpg)
+![Circuito](./Practica2_circuito.jpg)
 
 ---
 ## Actividades

@@ -4,7 +4,7 @@ Implementación de contador decimal y hexadecimal mediante el manejo de salidas 
 ![Esquematico Practica 3](./Esquematico_Contador_Hexadecimal.png)
 
 <br> **Circuito:** <br>
-![Circuito](./Practica1_circuito.jpg)
+![Circuito](./Circuito_practica3.jpeg)
 
 ---
 ## Actividades

@@ -1,7 +1,7 @@
 # Practica 1 - Manejo de Salidas Digitales
 Manejo de salidas digitales mediante el microcontrolador PIC16F887, implementando secuencias de parpadeo, conteo binario y caminata en LEDs.
 **Esquematico:**
-![Esquematico Practica 1](./Practica%201/Practica1_esquematico.png)
+![Esquematico Practica 1](./Practica1_esquematico.png)
 
 ---
 ## Actividades

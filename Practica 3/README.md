@@ -1,5 +1,6 @@
 # Practica 3 - Contadores
 Implementación de contador decimal y hexadecimal mediante el manejo de salidas digitales con el microcontrolador PIC16F887.
+
 <br>**Esquematico:** <br>
 ![Esquematico Practica 3](./Esquematico_Contador_Hexadecimal.png)
 

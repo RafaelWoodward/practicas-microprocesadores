@@ -9,7 +9,7 @@ Manejo de salidas digitales mediante el microcontrolador PIC16F887, implementand
 Programa de parpadeo de 4 LEDs conectados al puerto del PIC16F887, introducción al manejo de salidas digitales y configuración de registros TRIS y PORT.
 **Codigo:** [Blink.c](./Blink.c)
 <br> **Circuito:** <br>
-![Circuito Blink](./foto_blink.jpg)
+![Circuito](./Practica1_circuito.jpg)
 
 ---
 ### Actividad 1 - Contador Binario de 6 bits

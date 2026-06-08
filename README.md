@@ -1,4 +1,4 @@
-# Practicas-Microcontroladores
+# Prácticas-Microcontroladores
 Prácticas y Proyectos de la clase Microcontroladores
 - **Profesor:** Alejandro Omar Reyes Guía
 - EQUIPO: ⚡ZEUS⚡

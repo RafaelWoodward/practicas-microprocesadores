@@ -1,4 +1,5 @@
 # Prácticas-Microcontroladores
+![Logo ZEUS](zeus.jpeg)
 Prácticas y Proyectos de la clase Microcontroladores
 - **Profesor:** Alejandro Omar Reyes Guía
 - EQUIPO: ⚡ZEUS⚡

@@ -40,7 +40,10 @@ Programa que implementa un contador de cuatro dígitos de 0000 a 9999 con un dis
 <br> **Codigo:** <br> [Contador_9999_Interrupciones.c](./Contador_9999_Interrupciones.c)
 
 <br> **Esquematico:** <br>
-![Esquematico](./Contador_9999_interrupciones.jpg)
+![Esquematico](./Contador_99_Interrupciones.png)
+
+<br> **Circuito:** <br>
+![Circuito](./Contador_9999_interrupciones.jpg)
 
 ---
 ## Observaciones

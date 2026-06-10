@@ -11,6 +11,8 @@ Implementación de contador decimal y hexadecimal mediante el manejo de salidas 
 ## Actividades
 ### Clase - Contador Decimal (0 a 9)
 Programa que implementa un contador incremental en base 10 (decimal) empleando un display de 7 segmentos conectados a los pines del PIC16F887. Se configuran los puertos como salidas digitales (TRIS) y se envía la secuencia de estados lógicos (PORTB) del 0 al 9 de forma cíclica con retardos de tiempo.
+- "unsigned char seg7[10] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F};", aqui cada valor es una palabra de bits que enciende los segmentos correctos para mostrar un dígito del 0 al 9.
+
 <br> **Codigo:** <br> [Contador Decimal.c](./Contador_0-9.c)
 
 ---

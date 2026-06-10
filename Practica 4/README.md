@@ -2,16 +2,16 @@
 Implementación de contador decimal y control de LEDs mediante el manejo de salidas digitales con el microcontrolador PIC16F887.
 
 <br>**Esquematico:** <br>
-![Esquematico Practica 4](./Esquematico_clase.png)
-
-<br> **Circuito:** <br>
-![Circuito](./Circuito_practica3.jpeg)
+![Esquematico Practica 4](./Esquematico_Semaforo.png)
 
 ---
 ## Actividades
 ### Clase - Contador Decimal (0 a 9)
 Programa que implementa un contador incremental en base 10 (decimal) empleando un display de 7 segmentos conectados a los pines del PIC16F887. Se configuran los puertos como salidas digitales (TRIS) y se envía la secuencia de estados lógicos (PORTB) del 0 al 9 de forma cíclica con retardos de tiempo.
 <br> **Codigo:** <br> [Contador Decimal.c](./Contador_0-9.c)
+
+<br> **Circuito:** <br>
+![Circuito](./Circuito_practica3.jpeg)
 
 ---
 ### Actividad 1 - Contador Hexadecimal (0 a F)

@@ -28,7 +28,7 @@ Programa que lee una señal analógica en el pin RA0 y la muestra en un LCD en t
 ![Modo_Porcentaje](./Modo_Porc.png)
 
 <br> **Circuito:** <br>
-<img src="./Circuito_Conversion_ADC.jpeg" width="900"/>
+<img src="./Circuito_Conversion_ADC.jpeg" width="1200"/>
 ---
 ## Observaciones
 - Trabajar con enteros en lugar de float es una práctica recomendada en microcontroladores de 8 bits, ya que las operaciones de punto flotante consumen mucha más memoria. Multiplicar primero por un factor grande antes de dividir permite conservar decimales necesarios sin perder precisión por truncamiento.

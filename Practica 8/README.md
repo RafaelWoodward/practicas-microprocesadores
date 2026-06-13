@@ -5,7 +5,7 @@ Implementación de lectura analógica en múltiples canales con visualización e
 ---
 
 ## Esquematico
-![Esquematico](./Esquematico_Display_ADC.png)
+![Esquematico_Display_ADC](./Esquematico_Display_ADC.png)
 
 ---
 
@@ -23,11 +23,11 @@ Programa que lee dos señales analógicas en RA0 y RA1 y muestra el voltaje de a
 <br> **Codigo:** <br> [Display_ADC_Voltajes.c](./Display_ADC_Voltajes.c)
 
 <br> **Display:** <br>
-![Actividad_Clase_Display_2_Canales](./Actividad_Clase_Display_2_Canales.png)
+![Actividad_Clase_Display_2_Canales_ADC](./Actividad_Clase_Display_2_Canales_ADC.png)
 
 ---
 
-### Reto - Dos canales ADC con tres modos de visualización, canal por interrupción y modo por interrupción externa
+### Reto - Dos canales ADC con tres modos de visualización, canal y modo por interrupción externa
 
 Programa que lee dos canales analógicos (RA0 y RA1) y los muestra en tres modos distintos: voltaje, porcentaje y valor ADC crudo. El botón en RB0 cambia de canal mediante interrupción externa y el botón en RB1 cambia de modo mediante polling.
 
@@ -41,18 +41,18 @@ Programa que lee dos canales analógicos (RA0 y RA1) y los muestra en tres modos
 
 <br> **Modos de visualización:** <br>
 
-<img src="./Canal1_Volt.png" width="400"/> &nbsp;&nbsp;
-<img src="./Canal1_Porc.png" width="400"/> &nbsp;&nbsp;
-<img src="./Canal1_ADC.png"  width="400"/>
+<img src="./Canal1_Volt.png" width="320" height = "300"/> &nbsp;&nbsp;
+<img src="./Canal1_Porc.png" width="320" height = "290"/> &nbsp;&nbsp;
+<img src="./Canal1_ADC.png"  width="320" height = "300"/>
 
-<img src="./Canal2_Volt.png" width="400"/> &nbsp;&nbsp;
-<img src="./Canal2_Porc.png" width="400"/> &nbsp;&nbsp;
-<img src="./Canal2_ADC.png"  width="400"/>
+<img src="./Canal2_Volt.png" width="320"/> &nbsp;&nbsp;
+<img src="./Canal2_Porc.png" width="320"/> &nbsp;&nbsp;
+<img src="./Canal2_ADC.png"  width="320"/>
 
 ---
 
 <br> **Circuito:** <br>
-<img src="./Circuito_Display_ADC" width="1200"/>
+<img src="./Circuito_Display_ADC.jpeg" width="1200"/>
 
 ---
 

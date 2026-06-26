@@ -38,10 +38,10 @@
 #define ESTADO_RESULTADO    3
 
 // Codigos de operacion
-#define OP_DIVISION         0   // A
-#define OP_MULTIPLICACION   1   // B
-#define OP_RESTA            2   // C
-#define OP_SUMA             3   // D
+#define OP_DIVISION         0 // A
+#define OP_MULTIPLICACION   1 // B
+#define OP_RESTA            2 // C
+#define OP_SUMA             3 // D
 
 // VARIABLES GLOBALES
 unsigned char estado_actual = ESTADO_NUM1;
@@ -55,7 +55,6 @@ unsigned char pos_num1 = 0;
 unsigned char pos_num2 = 0;
 
 // PROTOTIPOS - Se utilizan para avisar que se utilizaran estas funciones
-
 void Sistema_Init(void);
 void Mostrar_Operacion(void);
 void Mostrar_Num1(void);
@@ -66,9 +65,7 @@ void Reiniciar_Calculadora(void);
 long Texto_A_Numero(char *texto);
 void Numero_A_Texto(long numero, char *destino);
 
-//=============================================================================
 // FUNCION PRINCIPAL
-//=============================================================================
 void main(void) {
     Sistema_Init(); // Activa el LCD y el Keypad
     Mostrar_Num1();

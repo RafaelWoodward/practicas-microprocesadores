@@ -23,16 +23,23 @@ Programa que implementa un cronómetro de tiempo en formato MM:SS mostrado en un
  
 ---
 ### Actividad - Voltaje en tiempo real con cronómetro usando Timer 0.
+Programa que combina la lectura de voltaje de un potenciómetro por ADC con el cronómetro MM:SS del Timer 0 mostrados simultáneamente en el LCD: la fila 0 despliega el voltaje en tiempo real y la fila 1 el tiempo transcurrido alineado a la derecha.
+ - "ADC_Init()" configura "ANSEL = 0x01" para que únicamente RA0 sea entrada analógica, y "ADCON1 = 0x80" justifica el resultado a la derecha con Vref = VDD, dejando el resultado de 10 bits repartido en "ADRESH" (2 bits altos) y "ADRESL" (8 bits bajos).
+ - "ADC_Read(channel)" limpia los bits de selección de canal con "ADCON0 &= 0x83" antes de fijar el canal deseado con "ADCON0 |= channel << 2", y espera la conversión con "while(GO_nDONE)" en lugar de usar interrupción, ya que el ADC se lee de forma puntual en cada vuelta del while y no requiere ejecutarse en segundo plano.
+ - El cronómetro reutiliza exactamente la misma lógica de Timer0 de la actividad de clase ("contador", "tiempo", recarga de "TMR0 = 178" en la ISR), corriendo de forma independiente en hardware mientras el ciclo principal se dedica a leer el ADC y refrescar el LCD.
+ - La conversión de la lectura ADC a voltaje usa "unsigned long" para el cálculo intermedio: "((unsigned long)adc_val * 50000UL) / 1023" evita el overflow que ocurriría con "unsigned int" al multiplicar por 50000. El resultado se separa en parte entera ("/ 10000") y dos decimales ("% 10000) / 100") para imprimir solo 2 cifras decimales de voltaje.
+ - A diferencia de otras prácticas que evitan "sprintf" por el límite de pila de 8 niveles del PIC16F887, aquí se usa "sprintf(buffer_volt, "%u.%02u", v_ent, v_dec)" y "sprintf(buffer_time, "%02u:%02u", ...)" para formatear tanto el voltaje como el tiempo. Esta es una excepción a la restricción habitual y debe usarse con precaución, verificando en el archivo ".lst" que la profundidad de pila no se exceda.
+ - El cronómetro se imprime en "LCD_Set_Cursor(1, 11)", alineado a la derecha de la fila 1, dejando esa fila reservada únicamente para el tiempo mientras la fila 0 se usa completa para el voltaje.
+ - Se agrega "V " (con espacio) después del valor de voltaje para sobrescribir cualquier residuo de un dígito anterior más largo, similar al uso de espacios de relleno visto en prácticas previas con LCD.
+ - El ciclo principal usa "__delay_ms(100)" como única pausa, suficiente para que el voltaje se vea estable sin parpadeo mientras el cronómetro sigue corriendo en segundo plano por interrupción, sin verse afectado por este delay.
  
-<!-- PENDIENTE: agregar descripcion de la actividad -->
- 
-<br> **Codigo:** <br> [main.c](./main.c)
+<br> **Codigo:** <br> [Timer0_Reto.c](./Timer0_Reto.c)
  
 <br> **Esquematico:** <br>
-![Esquematico](./esquematico_actividad.png)
+![Esquematico](./Esquematico9.png)
  
 <br> **Circuito:** <br>
-![Circuito](./circuito_actividad.jpeg)
+![Circuito Fisico](./FISICO9.jpeg)
  
 ---
 ## Observaciones

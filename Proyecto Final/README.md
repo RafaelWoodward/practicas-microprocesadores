@@ -46,7 +46,7 @@ Dentro de cada modo, la tecla propia del modo regresa al menú principal, `*` co
 
 ---
 ## Observaciones
-- La no linealidad del servo MOT-100 hace que una fórmula de mapeo simple (como las usadas en prácticas anteriores) no sea suficiente para posicionarlo con precisión. La tabla de calibración con interpolación lineal entre puntos medidos físicamente es la solución más precisa sin necesitar modelos matemáticos complejos.
+- La no linealidad del servo MOT-100 hace que una fórmula de mapeo simple no sea suficiente para posicionar su angulo con suficiente precisión usando un mapeo lineal común. Por esta razon realiazmos una tabla de calibración entre puntos medidos físicamente para mayor presición.
 - "__delay_us()" en XC8 solo acepta constantes en tiempo de compilación, por lo que generar pulsos de ancho variable con esta función directamente es imposible. El loop de bloques de "__delay_us(100)" resuelve esta restricción reduciendo además el overhead acumulado respecto a un loop de "__delay_us(1)".
 - Revisar el keypad dentro del loop de barrido en lugar de usar interrupciones permite responder a las teclas sin interrumpir el pulso PWM en curso, evitando que el servo reciba un pulso incompleto que cause un movimiento brusco.
 - El uso de funciones de estado independientes con su propio while interno hace que el código sea modular y fácil de extender: agregar un nuevo modo solo requiere crear una nueva función y un nuevo case en el switch del main.

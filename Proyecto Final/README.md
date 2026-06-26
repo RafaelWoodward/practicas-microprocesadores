@@ -36,13 +36,32 @@ Dentro de cada modo, la tecla propia del modo regresa al menú principal, `*` co
  - "LCD_Numero(int numero)" convierte un entero a texto sin usar "sprintf" ni la librería estándar, extrayendo dígitos con módulo y división sucesivos, invirtiendo el orden con un buffer temporal y enviando cada carácter con "LCD_putc()". Esto evita dependencias de stdio en el código del proyecto.
  - Si el usuario intenta entrar a OPERAR sin haber definido el rango o la velocidad, el sistema muestra "FALTA CALIBRAR" y espera que el usuario presione `D` para regresar al menú sin iniciar ningún barrido.
 
-<br> **Codigo:** <br> [main.c](./main.c)
+<br> **Codigo:** <br> [ProyectoFinal.c](./ProyectoFinal.c)
 
 <br> **Esquematico:** <br>
-![Esquematico](./VEL.png)
+![Esquematico](./Esquematico.png)
+
+<br> **Menú principal:** <br>
+![Menu](./MENU.png)
+
+<br> **Paneles de los modos:** <br>
+<table>
+<tr>
+<td><img src="./ANG.png" width="500"/></td>
+<td><img src="./RANG.png" width="500"/></td>
+</tr>
+<tr>
+<td><img src="./VEL.png" width="500"/></td>
+<td><img src="./OPER.png" width="500"/></td>
+</tr>
+</table>
 
 <br> **Circuito:** <br>
 ![Circuito](./Proyecto_Final.jpeg)
+
+<br> **Video de evidencia:** <br>
+[![Video del proyecto](./Esquematico.png)](./VIDEO_Proyecto.mp4)
+*(Click en la imagen para reproducir el video)*
 
 ---
 ## Observaciones

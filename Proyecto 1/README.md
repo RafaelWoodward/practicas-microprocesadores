@@ -34,10 +34,10 @@ Al llegar a la columna 0 o a la columna 15, el personaje se teletransporta al ex
 ![Esquematico](./Esquematico_game.png)
 
 <br> **Figuras personalizadas:** <br>
-![Figuras](./Figuras.png)
+![Figuras](./Figuras.jpeg)
 
 <br> **Circuito:** <br>
-![Circuito](./Fis_proyecto.jpeg)
+![Circuito](./Fis_Proyecto.jpeg)
 
 <br> **Estados del juego:** <br>
 <table>

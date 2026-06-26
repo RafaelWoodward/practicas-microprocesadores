@@ -3,6 +3,10 @@ Implementación del manejo de un teclado matricial 4x4 junto con una LCD 16x2, m
 
 ---
 ## Actividades
+
+<br> **Esquematico General :** <br>
+![Esquematico](./Esquematico.png)
+
 ### Actividad 1 - Escribir en la LCD los caracteres del teclado matricial.
 Programa que muestra cada tecla presionada (0-9, A, B, C, D, *, #) directamente en la LCD, llenando primero la línea 1 y después la línea 2. Al llegar al final de la línea 2 se reinicia desde la posición (0,0) sobrescribiendo el contenido anterior.
  - "switch_press_scan()" hace polling bloqueante hasta que el usuario presiona una tecla, por lo que el "while" principal no necesita lógica adicional de espera.
@@ -11,9 +15,6 @@ Programa que muestra cada tecla presionada (0-9, A, B, C, D, *, #) directamente 
  - No se usa ningún buffer de texto: cada tecla se imprime con "LCD_putc()" en el momento exacto en que se presiona, evitando el riesgo de overflow asociado a acumular caracteres en un arreglo.
 
 <br> **Codigo:** <br> [Teclado.c](./Teclado.c)
-
-<br> **Esquematico:** <br>
-![Esquematico](./Esquematico.png)
 
 <br> **Prueba:** <br>
 ![Prueba Teclado](./Prueba_Teclado.png)
@@ -43,6 +44,10 @@ Programa que implementa una calculadora con máquina de estados de 4 etapas: ing
 
 <br> **Prueba - Resultado:** <br>
 ![Prueba Calculadora Resultado](./Prueba_Calculadora.png)
+
+<br> **Circuito en Físico:** <br>
+![FISICO](./FISICO.jpeg)
+
 
 ---
 ## Observaciones
